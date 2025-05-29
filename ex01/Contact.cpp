@@ -6,7 +6,7 @@
 /*   By: imoulasr <imoulasr@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/29 08:51:01 by imoulasr          #+#    #+#             */
-/*   Updated: 2025/03/29 08:51:20 by imoulasr         ###   ########.fr       */
+/*   Updated: 2025/05/29 11:28:16 by imoulasr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,9 +68,4 @@ std::string Contact::getPhoneNumber() const
 std::string Contact::getDarkestSecret() const
 {
     return this->darkest_secret;
-}
-
-bool Contact::isEmpty() const
-{
-    return (this->first_name.empty());
 }
